@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GridLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:rowCount="9" >
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_columnSpan="4"
+        android:background="#FFCCCC"
+        android:textSize="50sp"
+        android:inputType="none" />
+    <Button
+        android:id="@+id/btnDiv"
+        android:text="/" />
+
+    <Button
+        android:id="@+id/btnMult"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/btnC"
+        android:text="C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btnDel"
+        android:text="Del"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:text= "1"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"/>
+    <Button
+        android:id="@+id/btn2"
+        android:text="2"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"/>
+
+    <Button
+
+        android:id="@+id/btn3"
+        android:text="3"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/btnSum"
+        android:text="+"
+        />
+
+    <Button
+        android:id="@+id/btn4"
+        android:text="4"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"/>
+    <Button
+        android:id="@+id/btn5"
+        android:text="5"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"/>
+    <Button
+        android:id="@+id/btn6"
+        android:text="6"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/btnRes"
+        android:text="-" />
+
+        <Button android:id="@+id/btn7"
+        android:text="7"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"/>
+    <Button
+        android:id="@+id/btn8"
+        android:text="8"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"/>
+    <Button
+        android:id="@+id/btn9"
+        android:text="9"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"/>
+
+
+    <Button
+        android:id="@+id/btnRaiz"
+        android:text="√" />
+
+    <Button
+        android:id="@+id/btn0"
+        android:text="0"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        />
+    <Button
+        android:id="@+id/btnPunto"
+        android:text="."
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        />
+    <Button
+        android:id="@+id/btnAbrir"
+        android:text="\("
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+                />
+    <Button
+        android:id="@+id/btnCerrar"
+        android:text="\)"
+        />
+
+    <Button
+        android:id="@+id/btnSin"
+        android:text="SIN" />
+    <Button
+        android:id="@+id/btnCos"
+        android:text="COS" />
+    <Button
+        android:id="@+id/btnTan"
+        android:text="TAN" />
+
+    <Button
+        android:id="@+id/btnPorcentaje"
+        android:text="%" />
+
+    <Button
+        android:id="@+id/btnCsc"
+        android:text="CSC"/>
+    <Button
+        android:id="@+id/btnSec"
+        android:text="SEC"/>
+    <Button
+        android:id="@+id/btnCTG"
+        android:text="CTG"/>
+
+    <Button
+        android:id="@+id/btnIgual"
+        android:layout_height="99dp"
+        android:layout_rowSpan="2"
+        android:text="=" />
+    <Button
+        android:id="@+id/btnOFF"
+        android:text="OFF"/>
+    <Button
+        android:id="@+id/btnFact"
+        android:text="X!"/>
+    <Button
+        android:id="@+id/btnPot"
+        android:text="X^"/>
+
+
+
+</GridLayout>
